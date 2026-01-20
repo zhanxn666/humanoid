@@ -1,0 +1,71 @@
+################################
+# OS / Editor
+################################
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+################################
+# Python
+################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.egg-info/
+.eggs/
+dist/
+build/
+
+################################
+# Conda / venv
+################################
+.env
+.venv
+venv/
+conda-env/
+*.conda
+
+################################
+# Isaac Sim / Omniverse
+################################
+omniverse/
+.ov/
+.kit/
+*.usd.lock
+
+################################
+# IsaacLab / RobotLab cache
+################################
+**/logs/
+**/wandb/
+**/runs/
+**/checkpoints/
+**/outputs/
+**/videos/
+**/recordings/
+
+################################
+# RL / Training artifacts
+################################
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+
+################################
+# Simulation / Generated Assets
+################################
+*.usd
+*.usda
+*.usdc
+*.fbx
+*.obj
+
